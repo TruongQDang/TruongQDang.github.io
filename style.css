@@ -1,0 +1,21 @@
+.nav {
+        display: flex;
+        justify-content: space-between; /* Aligns h1 to left and ul to right */
+        align-items: center;
+      }
+      
+      .nav h1 {
+        margin: 0;
+      }
+      
+      .nav ul {
+        display: flex;
+        justify-content: center; /* Centers the links within the ul */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .nav li {
+        margin-right: 20px;
+      }
